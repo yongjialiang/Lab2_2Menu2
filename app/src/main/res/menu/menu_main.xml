@@ -1,0 +1,25 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.taruc.lab2_2menu.MainActivity">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_about_us"
+        android:orderInCategory="101"
+        android:title="About Us"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_increase"
+        android:icon="@drawable/ic_add_white_24dp"
+        android:title="Increase"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_decrease"
+        android:icon="@drawable/ic_remove_white_24dp"
+        android:title="Decrease"
+        app:showAsAction="ifRoom" />
+</menu>
